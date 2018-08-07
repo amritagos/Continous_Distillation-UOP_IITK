@@ -1,4 +1,4 @@
-documentclass: scrbook
+documentclass: scrreprt
 classoption:
   - oneside
   - headinclude
