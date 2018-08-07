@@ -55,17 +55,45 @@ $$ R = \frac{L}{D} $$
 
 ### Rectifying Section
 
-![Rectifying Section](img/1533580926428.png)
+![Rectifying Section](img/1533580926428.png){#fig:rectSec}
 
-A material balance for the light key over the envelope shown in the figure for
-the total condenser and stages $1$ to $n$ is as follows, where $y$ and $x$ refer
-to vapor and liquid mole fractions, respectively, for the light key:
+A material balance for the light key over the envelope shown in figure
+@fig:rectSec for the total condenser and stages $1$ to $n$ is as follows, where
+$y$ and $x$ refer to vapor and liquid mole fractions, respectively, for the
+light key:
 
-$$ V_{n+l} y_{n+l} = L_n x_n + D x_D $$
+$$ V_{n+l} y_{n+l} = L_n x_n + D x_D $${#eq:}
+
+Solving for $y_{n+1}$, we get:
+
+$$ y_{n+1} = \frac{L_n}{V_{n+1}} x_n + \frac{D}{V_{n+1}} x_D$${#eq:}
+
+Where we note that:
+
+- $L_0$ is the external reflux rate
+- $D$ is the distillate rate
+- $\frac{L_0}{D}$ is the reflux ratio, $R$
+
+Additionally we know from the overall mass balance around the equipment envelope
+that, 
+
+$$V=L+D$${#eq:massVap}
+
+From this, we may now note the relation between the operating line and the
+reflux ratio, ie. @eq:opRe
+
+$$\frac{L}{V}=\frac{L}{L+D}=\frac{L/D}{L/D+D/D}=\frac{R}{R+1}$${#eq:opRe}
+
+Similarly,
+
+$$\frac{D}{V}=\frac{D}{L+D}=\frac{1}{R+1}$${#eq:opRe1}
+
+From equations @eq:massVap,@eq:opRe and @eq:opRe1 we now have the most used
+form, that of @eq:opReFin
+
+$$y=\left(\frac{R}{R+1}\right)x+\left(\frac{1}{R+1}\right)x_D$${#eq:opReFin}
 
 ### Feed Conditions
-
-blah blah
 
 | **Feed condition** | **f** | **q** | **q Calculation** |
 | ---------------------- | ----------- | ---------- | ------------------------------------------------------------ |
