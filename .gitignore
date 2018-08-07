@@ -31,3 +31,6 @@ codegen/
 octave-workspace
 ~*
 *~*
+/data/feed.dat
+/data/strppr.dat
+/data/rectifying.dat
