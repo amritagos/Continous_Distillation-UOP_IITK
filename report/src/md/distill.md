@@ -111,7 +111,22 @@ $$y=\left(\frac{R}{R+1}\right)x+\left(\frac{1}{R+1}\right)x_D$${#eq:opReFin}
 ![Stripping Section](img/strpSec.png){#fig:strp}
 
 Analogous to the develop above, we shall step through the equations of note in
-the stripping section, marked in @fig:strp.
+the stripping section, marked in @fig:strp. Vapor leaving the partial reboiler
+is assumed to be in equi- librium with the liquid bottoms product, $B$, making
+the partial reboiler an equilibrium stage. The vapor rate leaving it is the
+boilup, $\bar{V}_{N+1}$, and its ratio to the bottoms product rate,
+$V_B=\bar{V}_{N+1}/B$ is the *boilup ratio*. With the constant-molar overflow
+assumption, V B is constant in the stripping section.
+
+Since $\bar{L}=\bar{V}+B$, we have
+
+$$\frac{\bar{L}}{\bar{V}}=\frac{\bar{V}+B}{\bar{V}}=\frac{V_B+1}{V_B}$${#eq:strp1}
+
+$$\frac{B}{\bar{V}}=\frac{1}{V_B}$${#eq:strp2}
+
+Similar to the section above we now have the final equation in @eq:strpFin.
+
+$$y=\left(\frac{V_B+1}{V_B}\right)x-\left(\frac{1}{V_B}\right)x_B$${#eq:strpFin}
 
 ### Feed Conditions
 
