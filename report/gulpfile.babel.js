@@ -80,8 +80,6 @@ const pandocOpt = {
     args: [
     '--filter',
     'pandoc-eqnos',
-    '--filter',
-    'pandoc-fignos',
     '--standalone',
     '--highlight-style',
     'zenburn',
