@@ -84,16 +84,32 @@ caption: Possible Feed Conditions and Corresponding $q$ Values
 2. The calibration curve for refractive index with alcohol percent was obtained.
    The calibration curve for specific gravity was also calculated.
 3. The feed composition was determined and the reboiler was filled with it.
-4. Start heating the reboiler and circulate cooling water in the condenser.
-5. Determine minimum reflux ratio for the feed conditions assuming 85 mol purity
-   of the distillate.
-6. Operate under a reflux ratio higher than minimum reflux, ratio, and obtain
-   samples at the steady states.
-7. Measure all flow rates (distillate, reflux, feed, cooling water) and
-   temperature (bottom, distillate, condenser inlet and outlet). Measure power
-   (kwh) point input to boiler.
-8. Measure refractive indices of samples of feed, distillate and still liquid.
-9. Measure the specific gravity of the distillate collected.
+4. The reboiler was started and cooling water began circulation in the
+   condenser.
+5. For operating the column using total reflux, the entire distillate was
+   returned to the column, and no secondary feed was provided. Secondary feed
+   was provided only for the partial reflux cases.
+6. The minimum reflux ratio for the feed conditions was determined, assuming 85
+   mole purity of the distillate.
+7. The column was operated under a reflux ratio higher than minimum reflux
+   ratio, and samples were obtained at the steady states.
+8. A sample from the bottoms was collected every $10$ minutes. The refractive
+   index was measured using an Abbe refractometer. The specific gravity of the
+   distillate was measured.
+9. All the flow rates (distillate, reflux, feed, cooling water) and temperature
+   (bottom, distillate, condenser inlet and outlet) were measured. The power
+   (kwh) point input to boiler was also measured.
+10. After the total reflux condition was achieved, a secondary feed was used to
+    operate the column using a reflux ratio between $3$ to $4$.
+11. The flow rates of the distillate and bottoms were adjusted so that the
+    overall mass balance adjusted for the desired reflux ratio.
+12. The total distillate and bottoms were collected and measured to verify the
+    overall mass balance.
+13. The refractive index of the total bottoms and the specific gravity of the
+    distillate was measured to get an indication of the degree of purification
+    for a fixed reflux ratio.
+    
+    The overall electricity consumption was also measured for the entire process.
 
 ## Line Diagram 
 
