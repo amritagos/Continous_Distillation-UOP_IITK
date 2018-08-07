@@ -19,14 +19,27 @@ reflux.
 
 ## Theory
 
-Doctor Strange planned the ENDGAME all along.
+![Distillation Operation Using a Total Condenser and Partial Reboiler](img\distillation.PNG)
+
+The general countercurrent-flow, multistage, binary-distillation operation
+consists of a column containing the equivalent of N theoretical stages; a total
+condenser in which the overhead vapor leaving the top stage is totally condensed
+to give a liquid distillate product and liquid reflux that is returned to the
+top stage; a partial reboiler in which liquid from the bottom stage is partially
+vaporized to give a liquid bottoms product and vapor boil-up that is returned to
+the bottom stage, and an intermediate feed stage @seader2016separation. By means
+of multiple, countercurrent contacting stages arranged in a two-section cascade
+with reflux and boil-up, it is possible to achieve a sharp separation between
+the two components in the feed unless an azeotrope is formed, in which case one
+of the two products will approach the azeotropic composition. For the
+ethanol-water system, separation can only be achieved up to $95.5 \%$ ethanol.
 
 ### Assumptions
 
 In order to plot the locus of all passing streams in the rectifying section as a
 straight line of the form $y = mx + c$, the total molar flow rates $L$ and $V$
 cannot vary from stage to stage. The following are the *McCabe-Thiele
-assumptions* @seader2016separation, @gorak2014distillation.
+assumptions*^[@seader2016separation,@gorak2014distillation].
 
 1. The mixture is binary.
 2. The column operates in the steady-state condition.
@@ -51,7 +64,7 @@ ratio to the distillate rate, $L_0/D$, is the reflux ratio, $R$. Because of the
 assumption of constant molar overflow, $R$ is a constant in the rectifying
 section @seader2016separation, @smith2012distillation:
 
-$$ R = \frac{L}{D} $$
+$$ R = \frac{L}{D} $${#eq:}
 
 ### Rectifying Section
 
@@ -92,6 +105,13 @@ From equations @eq:massVap,@eq:opRe and @eq:opRe1 we now have the most used
 form, that of @eq:opReFin
 
 $$y=\left(\frac{R}{R+1}\right)x+\left(\frac{1}{R+1}\right)x_D$${#eq:opReFin}
+
+### Stripping Section
+
+![Stripping Section](img/strpSec.png){#fig:strp}
+
+Analogous to the develop above, we shall step through the equations of note in
+the stripping section, marked in @fig:strp.
 
 ### Feed Conditions
 
@@ -140,7 +160,7 @@ Table: Possible Feed Conditions and Corresponding $q$ Values^[@gorak2014distilla
 
 ## Line Diagram 
 
-Welcome to the 20th century. We have pictures now.
+
 
 ##  Tables and Graphs
 
@@ -206,7 +226,7 @@ The data for both curves has been tabulated in Table \ref{tbl:calCurve}.
 
 ## Calculations
 
-Do crazy shit here
+
 
 ## Results and Discussion 
 
