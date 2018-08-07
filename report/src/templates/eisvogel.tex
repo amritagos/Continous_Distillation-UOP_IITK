@@ -362,6 +362,7 @@ $if(institute)$
 \providecommand{\institute}[1]{}
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
+
 \date{$date$}
 $if(beamer)$
 $if(titlegraphic)$
@@ -643,7 +644,6 @@ $if(titlepage-color)$
 \newpagecolor{titlepage-color}\afterpage{\restorepagecolor}
 $endif$
 \newcommand{\colorRule}[3][black]{\textcolor[HTML]{#1}{\rule{#2}{#3}}}
-\begin{flushleft}
 \noindent
 \\[-1em]
 \color[HTML]{$if(titlepage-text-color)$$titlepage-text-color$$else$5F5F5F$endif$}
@@ -661,11 +661,21 @@ $endif$
 \vskip 2em
 \noindent
 {\Large \textsf{\MakeUppercase{$for(author)$$author$$sep$, $endfor$}}
-\vfill
+$if(logo)$
+\vskip 2em
+\begin{center}
+\includegraphics[width=7cm,height=7cm,keepaspectratio]{$logo$}
+\end{center}
+$endif$
+\vskip 2em
 }
-
+$if(submittedTo)$
+\begin{center}
+\newline \Large \textit{\textbf{Submitted To:}} \newline $submittedTo$ \newline
+\end{center}
+$endif$
+\large
 \textsf{$date$}}
-\end{flushleft}
 \end{titlepage}
 \restoregeometry
 $endif$
