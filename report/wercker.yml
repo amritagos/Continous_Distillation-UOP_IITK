@@ -1,0 +1,16 @@
+box: haozeke/zenyoda_archlinux
+# Build definition
+build:
+    steps:
+      - script:
+          name: build targets
+          code: yarn && yarn run gulp && bash scripts/deploy.sh || true
+# deploy:
+#   steps:
+#    - add-to-known_hosts:
+#        hostname: bitbucket.org
+#    - add-ssh-key:
+#        keyname: DEPLOY
+#    - script:
+#        name: Deploy compiled pdf
+#        code: bash scripts/deploy.sh

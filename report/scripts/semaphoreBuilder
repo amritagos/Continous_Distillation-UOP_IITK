@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+install-package aria2 biber texlive-latex-base expect xzdec texlive-latex-extra texlive-latex-recommended
+tlmgr init-usertree
+sudo tlmgr update --all
+scripts/getPandoc.sh
+# Disabled the texlive script in favor of regular ubuntu installation
+#cp scripts/texlive.profile $HOME/texlive.profile
+#scripts/TeXLive.sh
+sudo pip install pandoc-eqnos
+sudo pip install pandoc-fignos
+yarn
+yarn run gulper -t projReport -c

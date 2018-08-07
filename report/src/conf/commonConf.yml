@@ -1,0 +1,15 @@
+author:
+- 'Rohit Goswami \newline (234324)'
+submittedTo:
+  - "Prof One \\newline \\textit{Course Instructor}"
+department: Department of Blah
+institute: Name Place
+title: docuYoda
+subtitle: Pandoc Papers for Turtles
+pretitle: Report on
+logo: src/img/turtleLogo.jpeg
+fontsize: 16pt
+date: 2017-11-5
+subject: "docuYoda"
+tags: [Markdown, Example]
+fignos-capitalise: true
