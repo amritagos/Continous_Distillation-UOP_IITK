@@ -1,5 +1,3 @@
-# Continuous Distillation : Experiment 4
-
 ## Objective
 
 The objective is to study the process of continuous distillation in a sieve
