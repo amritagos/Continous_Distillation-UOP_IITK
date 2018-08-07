@@ -95,16 +95,15 @@ $$y=\left(\frac{R}{R+1}\right)x+\left(\frac{1}{R+1}\right)x_D$${#eq:opReFin}
 
 ### Feed Conditions
 
-| **Feed condition** | **f** | **q** | **q Calculation** |
-| ---------------------- | ----------- | ---------- | ------------------------------------------------------------ |
-| Subcooled liquid | $f < 0$ | $q > 1$ | $q = [c_{P,L} (T_{bp} - T_F ) + \Delta H_{vap} ]/ \Delta H_{vap}$ |
-| Liquid at bubble point | $0$ | $1$ | $q = \Delta H_{vap} / \Delta H_{vap} = 1$ |
-| Partially vaporized | $0 < f < 1$ | $1< q < 0$ | $q = [(1 - f) \Delta H_{vap} ] / \Delta H_{vap} $ |
-| Vapor at dew point | $1$ | $0$ | $q = 0$ |
-| Superheated vapor | $f > 1$ | $q < 0$ | $q = - [c_{P,V} (T_F - T_{dp} )] / \Delta H_{vap} $ |
+| **Feed condition**     | **f**       | **q**      | **q Calculation**                                                 |
+| ---------------------- | ----------- | ---------- | ------------------------------------------------------------      |
+| Subcooled liquid       | $f < 0$     | $q > 1$    | $q = [c_{P,L} (T_{bp} - T_F ) + \Delta H_{vap} ]/ \Delta H_{vap}$ |
+| Liquid at bubble point | $0$         | $1$        | $q = \Delta H_{vap} / \Delta H_{vap} = 1$                         |
+| Partially vaporized    | $0 < f < 1$ | $1< q < 0$ | $q = [(1 - f) \Delta H_{vap} ] / \Delta H_{vap}$                  |
+| Vapor at dew point     | $1$         | $0$        | $q = 0$                                                           |
+| Superheated vapor      | $f > 1$     | $q < 0$    | $q = - [c_{P,V} (T_F - T_{dp} )] / \Delta H_{vap}$                |
 
-caption: Possible Feed Conditions and Corresponding $q$ Values
-@gorak2014distillation
+Table: Possible Feed Conditions and Corresponding $q$ Values^[@gorak2014distillation]. {#tbl:feedCond}
 
 ## Procedure 
 
